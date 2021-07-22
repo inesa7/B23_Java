@@ -15,12 +15,11 @@ public class Anagram {
         String s1 = "race";   //acer
         String s2 = "care";  //acer
 
+        char[] ch1 = s1.toLowerCase().toCharArray();  // [a, c, e, r]
+        char[] ch2 = s2.toCharArray();  //  [c, a, r, e]
 
-        char[] ch1 = s1.toCharArray();  // we can use the sort method
-        char[] ch2 = s2.toCharArray();  //  we can use the sort method
-
-        Arrays.sort(ch1); // ch1 will be in ascending order:  a-z
-        Arrays.sort(ch2); // ch2 will be in ascending order: a-z
+        Arrays.sort(ch1); // we can use the sort method ==> ch1 will be in ascending order:  a-z
+        Arrays.sort(ch2); // we can use the sort method ==> ch2 will be in ascending order: a-z
 
         System.out.println(Arrays.toString(ch1));
         System.out.println(Arrays.toString(ch2));

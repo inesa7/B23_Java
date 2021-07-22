@@ -55,8 +55,9 @@ public class WarmupTasks {
     // create a method that can remove duplicates from string, returns string
     public static boolean isAnagram(String str1, String str2) {
 
-        char[] ch1 = str1.toCharArray();
-        char[] ch2 = str1.toCharArray();
+        char[] ch1 = str1.trim().toCharArray();
+        char[] ch2 = str1.trim().toCharArray();
+
 
         Arrays.sort(ch1);
         Arrays.sort(ch2);
