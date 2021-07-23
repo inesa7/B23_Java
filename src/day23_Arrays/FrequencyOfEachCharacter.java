@@ -2,7 +2,7 @@ package day23_Arrays;
 
 public class FrequencyOfEachCharacter {
     public static void main(String[] args) {
-        String str = "aaaaaggggjjkkksssds";
+        String str = "AABBBCCCCC";
         String removeDuplicates = "";
 
         for (int i = 0; i < str.length()-1; i++) {
