@@ -23,10 +23,4 @@ Create a class named Address
     Attributes:
         instance:  buildingNumber, street, city, state, zipCode;
         static: country
-    Actions
-            setInfo: sets all the instances
-            toString: returns the address
-                        EX:
-                            7925 Jones Branch Dr
-                            McLean Va, 22012
  */
