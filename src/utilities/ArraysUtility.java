@@ -477,7 +477,6 @@ public class ArraysUtility {
 
     }
 
-
     //method that can remove the duplicates from an array of integer
     public static int[] removeDuplicates(int[] array){
         int[] newArr={}; // empty array
@@ -491,7 +490,6 @@ public class ArraysUtility {
 
         return newArr;
     }
-
 
     //method that can remove the duplicates from an array of double
     public static double[] removeDuplicates(double[] array){
@@ -507,7 +505,6 @@ public class ArraysUtility {
         return newArr;
     }
 
-
     //method that can remove the duplicates from an array of String
     public static String[] removeDuplicates(String[] array){
         String[] newArr={}; // empty array
@@ -521,7 +518,6 @@ public class ArraysUtility {
 
         return newArr;
     }
-
 
     //method that can remove the duplicates from an array of char
     public static char[] removeDuplicates(char[] array){

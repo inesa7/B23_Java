@@ -19,5 +19,18 @@ public class WrapperClassMethods {
         Integer num4 = Integer.valueOf(str);
 
 
+
+
+            String s = "77";
+
+            // Primitive int is returned
+            int str1 = Integer.parseInt(s);
+            System.out.print(str);
+
+            // Integer object is returned
+            int str2 = Integer.valueOf(s);
+            System.out.print(str1);
+        }
     }
-}
+
+

@@ -35,3 +35,9 @@ public class Anagram_Return {
         return isAnagram;
     }
 }
+
+/* create a function that can check if 2 strings are anagram,
+return true if the are anagram
+isAnagram("listen", "silent")==> true 2 parameters
+isAnagram("Java", "Python")==> false
+*/

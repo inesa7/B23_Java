@@ -6,7 +6,6 @@ public class Exit_VS_Return {
         passOrFail(90);
     }
 
-
     public static void passOrFail(int score){
 
         if(score<0 || score>100){
