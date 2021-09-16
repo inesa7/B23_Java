@@ -12,8 +12,17 @@ public class ArrayListIntro {
         System.out.println(nums[2]); //to print out element 2 of the array
 
         //ArrayList:
-        ArrayList<Integer> numbers = new ArrayList<>(); // this is ArrayList size is 0
 
+
+        ArrayList<String> list = new ArrayList<>(); // this is ArrayList size is 0
+        list.add("Apple"); // index 0: Apple
+        list.add("Orange"); // index 1: Orange
+        list.add("Pear"); // index 2: Pear
+        list.add(1, "Banana"); // add Banana to index 1, Orange will shift to the right
+        System.out.println(list); //[Apple, Banana, Orange, Pear]
+        System.out.println(list.get(2)); // Orange
+
+        ArrayList<Integer> numbers = new ArrayList<>(); // this is ArrayList size is 0
         numbers.add(10); // autoboxing, 0
         numbers.add(20); // autoboxing, 1
         numbers.add(30); // autoboxing, 2

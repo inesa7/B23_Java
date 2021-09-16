@@ -49,7 +49,6 @@ public class ArraysUtility {
         result[result.length - 1] = number;
         return result;
     }
-
     //4
     public static double[] addElement(double[] array, double number) {
         double[] result = Arrays.copyOf(array, array.length + 1); // this is the new array with one more element added

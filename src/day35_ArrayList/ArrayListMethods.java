@@ -15,29 +15,37 @@ public class ArrayListMethods {
         groceryList.add("Vegetables");
         System.out.println(groceryList); // [Eggs, Milk, Bread, Water, Fruit, Vegetables]
 
-        // set(index, Object) method: replace old element at given index with new
         groceryList.add(0, "Cream");
-        System.out.println(groceryList); // [Cream, Milk, Bread, Water, Fruit, Vegetables]
+        System.out.println(groceryList); // [Cream, Eggs, Milk, Bread, Water, Fruit, Vegetables]
 
+        System.out.println("-----------------------------------------------");
+
+        // set(index, Object) method: replace old element at given index with new; replace Eggs with Yogurt
         groceryList.set(1, "Yogurt");
-        System.out.println(groceryList); // [Cream, Yogurt, Bread, Water, Fruit, Vegetables]
+        System.out.println(groceryList); // [Cream, Yogurt, Milk, Bread, Water, Fruit, Vegetables]
+
+        System.out.println("-----------------------------------------------");
 
         // remove(index) method:
 
         groceryList.remove(1); // remove "Yogurt"
-        System.out.println(groceryList); // [Cream, Bread, Water, Fruit, Vegetables]
+        System.out.println(groceryList); // [Cream, Milk, Bread, Water, Fruit, Vegetables]
 
         //remove(object) as a String " ":
         groceryList.remove("Water");
+        System.out.println(groceryList); // [Cream, Milk, Bread, Fruit, Vegetables]
 
         // the return type in remove(Object) is boolean
         boolean r1 =  groceryList.remove("Water");
         System.out.println(r1); // true
 
+        System.out.println("-----------------------------------------------");
+
         System.out.println(groceryList); // [Cream, Bread, Fruit, Vegetables]
 
         // clear(Object) method: removes all Objects
         groceryList.clear();
+        System.out.println(groceryList); // [] empty
 
         System.out.println("-----------------------------------------------");
 

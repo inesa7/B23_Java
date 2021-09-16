@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class AdressObjects {
 
     public static void main(String[] args) {
-        Address address = new Address();
+
+        Address address = new Address(); // new object
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Enter your building number:");
@@ -27,6 +28,8 @@ public class AdressObjects {
 
         address.setInfo(building, street, city, state, zipCode);
         System.out.println(address);
+        System.out.println(Address.country); // legal way to call static variable country from the class
+        //System.out.println(address.country); // illegal way to call static variable country
 
     }
 }

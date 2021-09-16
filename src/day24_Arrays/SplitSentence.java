@@ -9,6 +9,7 @@ public class SplitSentence {
         String sentence = input.nextLine();
         String[] words = sentence.split(" ");
 
+
         for(int i = 0; i<=words.length -1; i++) {
             System.out.println(words[i]);
 

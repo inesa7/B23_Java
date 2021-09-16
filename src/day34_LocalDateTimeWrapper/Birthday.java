@@ -6,7 +6,7 @@ public class Birthday {
 
     public static void main(String[] args) {
         birthday(1989, 7, 22); // Happy Birthday! Today you are 32 years old
-        birthday(2015, 8, 29); // Today is not your birthday
+        birthday(2020, 8, 15); // Today is not your birthday
 
 
     }
